@@ -11,7 +11,7 @@ class HomePage extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: Text("Shopping List"),
-        backgroundColor: Color.fromARGB(255, 244, 10, 88),
+        backgroundColor: Color.fromARGB(108, 34, 174, 255),
       ),
       body: Container(
         margin: EdgeInsets.all(8),

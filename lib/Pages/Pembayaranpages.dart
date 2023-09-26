@@ -1,21 +1,13 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_pertemuan5/item.dart';
-import 'package:flutter_pertemuan5/Pages/Pembayaranpages.dart';
 
-class ItemPage extends StatelessWidget {
+class BuyPages extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    final Item itemArgs = ModalRoute.of(context)!.settings.arguments as Item;
     return Scaffold(
         body: CustomScrollView(slivers: [
       SliverToBoxAdapter(
           child: Column(children: <Widget>[
         Padding(padding: EdgeInsets.only(top: 20)),
-        Container(
-          height: 400,
-          alignment: Alignment.center,
-          child: Image(image: AssetImage("assets/img/garam.jpg")),
-        ),
         Row(
           children: [
             Container(

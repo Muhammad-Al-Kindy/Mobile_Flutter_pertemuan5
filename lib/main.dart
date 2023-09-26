@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_pertemuan5/Pages/homepages.dart';
 import 'package:flutter_pertemuan5/Pages/itempages.dart';
+import 'package:flutter_pertemuan5/Pages/Pembayaranpages.dart';
 
 void main() {
   runApp(MaterialApp(
@@ -8,6 +9,7 @@ void main() {
     routes: {
       '/': (context) => HomePage(),
       '/item': (context) => ItemPage(),
+      '/buy': (context) => BuyPages(),
     },
   ));
 }
@@ -19,6 +21,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       title: 'Flutter Demo',
       theme: ThemeData(
         colorScheme:

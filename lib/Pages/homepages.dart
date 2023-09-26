@@ -10,7 +10,7 @@ class HomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Shopping List - 2141762008"),
+        title: Text("Shopping List"),
         backgroundColor: Color.fromARGB(255, 244, 10, 88),
       ),
       body: Container(
